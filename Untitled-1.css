@@ -6,6 +6,7 @@ font-size: 20px;
 }
 
 .menu{
+  margin-left: 43%;
 list-style:none;
 border:1px solid #c0c0c0;
 float:left;
@@ -17,21 +18,21 @@ position: -webkit-sticky;
     border-right:1px solid #c0c0c0;
     }
     
-    .menu li a{color: rgb(0, 0, 0); text-decoration:none; padding:5px 10px; display:block;}
+    .menu li a{color: rgb(255, 255, 255); text-decoration:none; padding:5px 10px; display:block;}
 
     .menu li a:hover{
-    background:#333;
-    color:#fff;
-    -moz-box-shadow:0 3px 10px 0 #CCC;
-    -webkit-box-shadow:0 3px 10px 0 #ccc;
-    text-shadow:0px 0px 5px #fff;
+    background:#ffffff;
+    color:#747171;
+    -moz-box-shadow:0 3px 10px 0 #727272;
+    -webkit-box-shadow:0 3px 10px 0 #797373;
+    text-shadow:0px 0px 5px #7c7979;
     }
 
     .menu li  ul{
         position:absolute;
         top:25px;
         left:0;
-        background-color:#fff;
+        background-color:#525151;
         display:none;
         }
 
@@ -60,9 +61,23 @@ position: -webkit-sticky;
             }
           
             .Camisetas {
-            margin-left: 190px;
-            margin-right: 190px;
+            margin-left: 6%;
+            margin-right: 6%;
+            width: 20%;
+            height: 57%;
             }
+            .propaganda {
+              margin-right: 6%;
+              width: 25%;
+              height: 55%;
+              margin-left: 6%;
+            }
+            .propaganda1 {
+
+              width: 22%;
+              height: 55%;
+            }
+
 
 
             .bannerimage2 {
@@ -89,24 +104,45 @@ position: -webkit-sticky;
           }
 
           .titulo {
+            font-size: 30px;
+            margin-left: 400px;
+            color: rgb(0, 0, 0);
+            position: relative;
+           
+            }
+            
+            .pt-sans-narrow-regular {
+              font-family: "PT Sans Narrow", sans-serif;
+              font-weight: 400;
+              font-style: normal;
+              font-size: 30px;
             margin-left: 75px;
-            color: white;
-          }
+            color: rgb(0, 0, 0);
+               }
           .texto2{
-            margin-left: 110px;
-            font-size: 32px;
-            color: white;
-
+            margin-left: 400px;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            font-family: "PT Sans Narrow", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            
+            
           }
+
+          
           .subtexto {
-            margin-left: 175px;
-            color: white;
-            font-size: 32px;
+            margin-left: 500px;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-family: "PT Sans Narrow", sans-serif;
+            font-weight: 400;
+            font-style: normal;
           }
           
           .titulo2 {
             color: rgb(32, 126, 32);
-           font-size: 50px;
+           font-size: 40px;
             text-align: center;
             font-weight: bold;
             text-shadow:
@@ -127,4 +163,18 @@ position: -webkit-sticky;
             1px -1px 0 #000000,
             -1px 1px 0 #000000,
             1px 1px 0 #000000;
+          }
+          .anuncio{
+            width: 23%;
+            height: 80%;
+            margin-right: 50%;
+          position: fixed;
+      
+          }
+          .anuncio1{
+            margin-left: 79%;
+            width: 23%;
+            height: 80%;
+          position: fixed;
+      
           }
